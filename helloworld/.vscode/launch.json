@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb-vscode",
+            "request": "launch",
+            "name": "lldb-vscode remote launch",
+            "program": "${workspaceRoot}/build/test",
+            "initCommands": [
+                "platform select remote-ohos",
+                "platform connect connect://localhost:1234",
+                "settings set target.inherit-env false",
+                "target create /bin/test",
+                "b main",
+                "run",
+            ],
+            "args": [],
+            "env": [],
+            //"cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "lldb-vscode",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceRoot}/buildwindow/Debug/test.exe",
+            "args": [],
+            "env": [],
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
