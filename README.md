@@ -29,7 +29,7 @@ openharmony编译设备A安装本仓库的lldb-vscode-0.1.0.vsix插件，windows
 
 最新lldb-server可以在"Sdk目录\openharmony\10\native\llvm\lib\clang\15.0.4\bin" 找到
 
-4 openharmony编译设备A上编译本代码仓中helloworld程序（编译指令参照目录中readme.txt，仓库中有arm架构已编译好的程序），将编译好的程序拷贝到设备B中，确认程序可以运行输出helloworld日志
+4 openharmony编译设备A上编译本代码仓中helloworld程序（编译指令参照目录中readme.txt，32位与64位编译指令不同，仓库中有arm架构已编译好的程序），将编译好的程序拷贝到设备B中，确认程序可以运行输出helloworld日志
 
 5 调试。
 
