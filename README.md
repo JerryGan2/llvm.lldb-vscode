@@ -17,7 +17,7 @@ openharmony运行设备B,要被调试程序运行环境
 
 1openharmony编译设备A安装DevEco Studio（openharmony app开发环境），然后安装openharmony  sdk。
 
-![image-20240223102622547](images\image-20240223102622547.png)
+![image-20240223102622547](images//image-20240223102622547.png)
 
 将Sdk目录\openharmony\10\toolchains加入环境变量。确保hdc指令可以执行成功。
 
@@ -33,13 +33,13 @@ openharmony编译设备A安装本仓库的lldb-vscode-0.1.0.vsix插件，windows
 
 5 调试。
 
-openharmony运行设备B上使用lldb-server *p --server --listen "*:1234" 启动lldb-server
+openharmony运行设备B上使用lldb-server p --server --listen "*:1234"  启动lldb-server
 
 使用vscode打开helloworld程序所在目录，选择lldb-vscode remote launch启动调试
 
-![image-20240223114946789](images\image-20240223114946789.png)
+![image-20240223114946789](images//image-20240223114946789.png)
 
 6 调试成功
 
-![image-20240223114515373](images\image-20240223114515373.png)
+![image-20240223114515373](images//image-20240223114515373.png)
 
